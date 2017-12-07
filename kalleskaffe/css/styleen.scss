@@ -1,0 +1,28 @@
+$dark_green: #0c5631;
+$light_green: #96bd82;
+
+
+body {
+	padding-top: 150px;
+}
+.nav-link {
+	img {
+		width: 100%;
+	}
+}
+.navbar-brand img {
+	width: 20%;
+} 
+.nav-item {
+	width: 40%;
+}
+.navbar {
+	background-image: url(../img/header-bg.png);
+	background-size: cover;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 2000;
+	font-weight: bold;
+}
